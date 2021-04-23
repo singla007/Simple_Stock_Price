@@ -4,10 +4,11 @@ import pandas as pd
 
 st.write("""
 # Simple Stock price App
-Below is the closing price and volume of Infosys!
+Below is the closing price and volume of company you will enter!
 """)
 
-symbol = "Infy"
+symbol = st.text_input("Enter Symbol of the company")
+# symbol = "Infy"
 
 tickerData = yf.Ticker(symbol)
 
