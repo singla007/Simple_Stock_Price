@@ -7,8 +7,7 @@ st.write("""
 Below is the closing price and volume of company you will enter!
 """)
 
-symbol = st.text_input("Enter Symbol of the company")
-# symbol = "Infy"
+symbol = st.text_input("Enter Symbol of the company", "INFY")
 
 tickerData = yf.Ticker(symbol)
 
