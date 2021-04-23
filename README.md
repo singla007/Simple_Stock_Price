@@ -1,4 +1,4 @@
 # Simple_Stock_Price
 
-Run this application in terminal with following command
-streamlit run main.py
+Run this application in terminal with following command <br>
+<code> streamlit run main.py </code>
